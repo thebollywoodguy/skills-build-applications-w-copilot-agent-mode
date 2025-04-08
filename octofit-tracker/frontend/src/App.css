@@ -1,0 +1,75 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #4682b4; /* Steel blue */
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f8ff; /* Light blue */
+  text-decoration: underline;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.table th {
+  background-color: #4682b4; /* Steel blue */
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f0f8ff; /* Light blue */
+}
+
+.table tr:hover {
+  background-color: #e0ffff; /* Light cyan */
+}
+
+/* Header styles */
+h1 {
+  color: #00008b; /* Dark blue */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
